@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <h1> TIC - TAC - TOE </h1>
+
+    <div class="grid-container">
+        <div class="grid-item" id="91" onclick="check( 0, 0, '91')"></div>
+        <div class="grid-item" id="92" onclick="check( 0, 1, '92')"></div>
+        <div class="grid-item" id="93" onclick="check( 0, 2, '93')"></div>  
+        <div class="grid-item" id="94" onclick="check( 1, 0, '94')"></div>
+        <div class="grid-item" id="95" onclick="check( 1, 1, '95')"></div>
+        <div class="grid-item" id="96" onclick="check( 1, 2, '96')"></div>  
+        <div class="grid-item" id="97" onclick="check( 2, 0, '97')"></div>
+        <div class="grid-item" id="98" onclick="check( 2, 1, '98')"></div>
+        <div class="grid-item" id="99" onclick="check( 2, 2, '99')"></div>  
+    </div><br><br>
+
+    <h1 id="winner"></h1>
+    
+    <button id="reset" onclick="resetGame()"> Reset the Game </button>
+    <ul id='score'> Score List </ul>
+
+    <script src = "script.js"></script>
+</body>
+
+</html>
